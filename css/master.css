@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Tahoma, Arial;
+}
+
+
+.get-repos-app {
+    width: 70%;
+    margin: 30px auto;
+    justify-content: center;
+}
+.get-repos-app header {
+    background-color: #eeedef;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.get-repos-app header input {
+    padding: 10px;
+    flex: 1;
+    border: none;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+}
+.get-repos-app header input:focus {
+    outline: none;
+}
+.get-repos-app header button {
+    flex-basis: 15%;
+    border: none;
+    color: white;
+    background-color: #ff5334;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    cursor: pointer;
+}
+.get-repos-app footer {
+    padding: 15px;
+    background-color: #e0dfe1;
+    position: relative;
+    overflow: hidden;
+}
+
+.get-repos-app footer .main{
+    background-color: #FFF;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.get-repos-app footer .main:not(:last-child) {
+    margin-bottom: 5px;
+}
+.get-repos-app footer .main .lDiv {
+    flex-basis: 78%;
+}
+.get-repos-app footer .main .rDiv {
+    flex-basis: 21%;
+    display: flex;
+}
+
+
+.get-repos-app footer .main .rDiv a,
+.get-repos-app footer .main .rDiv span {
+    border-radius: 4px;
+    color: #FFF;
+    font-size: 12px;
+    flex-basis: 50%;
+    text-align: center;
+    padding: 4px;
+}
+.get-repos-app footer div a {
+    text-decoration: none;
+    background-color: #e91e63;
+    margin-left: 4px;
+}
+.get-repos-app footer div span {
+    background-color: #009688;
+}
